@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 湖心小筑
+subtitle: '记录生活,记录成长'
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: blogs,技术,生活
+author: 琦玉老师
+language: zh-CN
 timezone: ''
 
 # URL
@@ -104,3 +104,16 @@ theme: maupassant
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit:
+  content_limit_delim: ' '
+
+# favicon
+favicon: favicon.ico
