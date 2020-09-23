@@ -365,10 +365,27 @@ div {
   padding: .8em 0 3.6em;
   margin-top: 1em;
   line-height: 2.5;
-  color: #6E7173;
+  color: #939393;
   text-align: center; }
   #footer span {
     font-size: .9em; }
+  #footer #gonganbeian {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 0; }
+    #footer #gonganbeian a {
+      display: inline-block;
+      text-decoration: none;
+      height: 20px;
+      line-height: 20px; }
+      #footer #gonganbeian a img {
+        float: left; }
+      #footer #gonganbeian a p {
+        float: left;
+        height: 20px;
+        line-height: 20px;
+        margin: 0px 0px 0px 5px;
+        color: #939393; }
 
 /* for archive page starts*/
 .post-archive {
